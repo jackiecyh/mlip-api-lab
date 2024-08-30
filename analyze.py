@@ -4,7 +4,7 @@ from azure.cognitiveservices.vision.computervision.models import OperationStatus
 import time
 
 endpoint = open("endpoint.txt", "r").read()
-key = key = open("key.txt", "r").read()
+key = open("key.txt", "r").read()
 
 credentials = CognitiveServicesCredentials(key)
 
